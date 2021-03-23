@@ -1,59 +1,60 @@
-#Y.CMS для Opencart 2 от Яндекс.Кассы
-Y.CMS для Opencart — это универсальный модуль для интеграции интернет-магазина с сервисами Яндекса.
+# Y.CMS for OpenCart 2 from Yandex.Cass
+Y.CMS for OpenCart is a universal module for integrating an online store with Yandex services.
 
-Мы собрали все основные сервисы Яндекса в одном месте,чтобы вам было удобно работать со своим сайтом, сделанном на CMS Opencart. Подробнее о возможностях этого модуля:
+We have collected all the main services of Yandex in one place to make it convenient to work with your site made on CMS OpenCart. Read more about the possibilities of this module:
 
-###[Яндекс.Касса](http://kassa.yandex.ru/) и на вашем сайте будут самые популярные способы оплаты.
-Существует два платежных сценария: с выбором способа оплаты на сайте магазина и на стороне Яндекс.Кассы. 
-> **Выбор способа оплаты на сайте магазина** 
-> В этом случае в настройках модуля отмечаются все способы оплаты, доступные этому магазину и плательщик выбирает нужный ему метод из списка на сайте магазина. Этот сценарий доступен всем магазинам по умолчанию.
+### [Yandex.Cassa] (http://kassa.yandex.ru/) and on your site there will be the most popular payment methods.
+There are two payment scenarios: with the choice of payment method on the store website and on the side of Yandex. Kassa.
+> ** Selection of payment method on the store website **
+> In this case, all payment methods available in the module settings are noted and the payer chooses the method you need from the list on the store site. This script is available to all default stores.
 
-> **Выбор способа оплаты на стороне Яндекс.Кассы**
-> Все доступные магазину способы появятся на стороне Яндекс.Кассы сами. Новые способы оплаты будут добавляться автоматически. Если вам нужен этот сценарий, напишите на merchants@yamoney.ru (понадобятся дополнительные настройки на стороне Яндекс.Кассы).
+> ** Selection of payment method on the side of Yandex.Cass **
+> All available store ways will appear on the side of Yandex. Kassy themselves. New payment methods will be added automatically. If you need this script, write on merchants@yamoney.ru (additional settings will be needed on the side of Yandex. Kassa).
 
-> Доступные платежные методы, если вы работаете как юридические лицо:
-* **Банковские карты** -  Visa (включая Electron), MasterCard и Maestro любого банка мира
-* **Электронные деньги** - Яндекс.Деньги, WebMoney и QIWI Wallet
-* **Наличные** - [Более 170 тысяч пунктов](https://money.yandex.ru/pay/doc.xml?id=526209) оплаты по России
-* **Баланс телефона** - Билайн, МегаФон и МТС
-* **Интернет банкинг** - Альфа-Клик, Сбербанк Онлайн, MasterPass и Промсвязьбанк
-* **Кредитование** - Доверительный платеж (Куппи.ру)
+> Available payment methods, if you work as a legal entity:
+* ** Bank cards ** - Visa (including Electron), MasterCard and Maestro any bank of the world
+* ** Electronic money ** - Yandex.Money, Webmoney and Qiwi Wallet
+* ** Cash ** - [more than 170 thousand items] (https://money.yandex.ru/pay/doc.xml?id=526209) payment in Russia
+* ** phone balance ** - Beeline, MegaFon and MTS
+* ** Internet banking ** - Alpha Click, Sberbank online, Masterpass and Promsvyazbank
+* ** lending ** - trust payment (jap.ru)
 
-###[Merchant Web Services](https://tech.yandex.ru/money/doc/payment-solution/payment-management/payment-management-about-docpage/)
-> Merchant Web Services (MWS) — это сервис для магазинов, подключенных к Яндекс.Кассе. С его помощью можно
-> получать информацию о возвратах и совершать их.
+### [MERCHANT WEB SERVICES] (https://tech.yandex.ru/money/doc/payment-solution/payment-management-payment-management-bout-docpage/)
+> Merchant Web Services (MWS) is a service for shops connected to Yandex.Cass. With it, you can
+> Receive information about returns and make them.
 
-###[Яндекс.Деньги](https://money.yandex.ru/) - начните получать деньги прямо сейчас — от любых пользователей рунета.
-> Переводы будут мгновенно зачисляться на ваш счет в Яндекс.Деньгах.
-> Доступные платежные методы, если вы осуществляете p2p переводы:
->* **Банковские карты** -  Visa (включая Electron), MasterCard и Maestro любого банка мира
->* **Электронные деньги** - Яндекс.Деньги
+### [Yandex.Money] (https://money.yandex.ru/) - Start getting money right now - from any users of Runet.
+> Translations will instantly enroll on your account in Yandex.Money.
+> Available payment methods if you are implementing P2P Translations:
+> * ** Bank cards ** - Visa (including Electron), MasterCard and Maestro any Bank of World
+> ** electronic money ** - Yandex.Money
 
-###[Яндекс.Метрика](https://metrika.yandex.ru/) - бесплатный сервис, предназначенный для оценки посещаемости веб-сайтов, и анализа поведения пользователей.
-> Сохраняйте настройки, смотрите за поведением пользователей https://metrika.yandex.ru/list/
+### [Yandex.Metric] (https://metrika.yandex.ru/) - free service designed to assess the attendance of websites, and analyzing user behavior.
+> Keep the settings, see the behavior of users https://metrika.yandex.ru/list/
 
-###[Яндекс.Маркет](http://market.yandex.ru/) ([CPC](http://welcome.advertising.yandex.ru/market/), [CPA](http://help.yandex.ru/partnermarket/purchase/about.xml)) 
-###Модуль CPA – программа "Покупка на Маркете"
-> Модуль позволяет участвовать в программе «Покупка на Маркете». Заказать товары из магазинов, подключённых к программе, можно прямо на Маркете — не переходя на сайт продавца. «Покупка на Маркете» сокращает путь пользователя до покупки и повышает доверие к магазину.
+### [Yandex.Market] (http://market.yandex.ru/) ([CPC] (http://welcome.advertising.yandex.ru/market/), [CPA] (http: // Help .yandex.ru / partnermarket / purchase / about.xml))
+### CPA module - shopping program on market
+> The module allows you to participate in the "Purchase on Market" program. You can order goods from shops connected to the program, right on the market - without moving to the seller's website. "Purchase on the market" reduces the path of the user before buying and increases confidence in the store.
 
-###Модуль СРС – размещение на Маркете
-> Модуль предназначен для размещения товарных предложений на Яндекс.Маркете. Так магазины могут привлекать на свой сайт больше посетителей, действительно заинтересованных в покупке. YML-формат обеспечивает максимально корректную передачу данных о товарах в Маркет.
+### Module SRS - placement on the market
+> The module is designed to place commodity offers on Yandex.Market. So shops can attract more visitors to their site, really interested in buying. The YML format provides the most correct transmission of data on goods in the market.
 
-###Требования к CMS Opencart:
-* версия 2.0.х или выше
-* PHP 5.3 или выше
+### Requirements for CMS OpenCart:
+* version 2.0.x or above
+* PHP 5.3 or higher
 
-###Установка
-Инструкция размещена на [странице сервиса Яндекс.Касса](https://kassa.yandex.ru/files/manual_y.cms_opencart2.pdf).
-> Внимание! Пакет `ycms_update.ocmod.zip` предназначен для обновления модуля с версии 1.3.х. Пакет `ycms.ocmod.zip` - первая установка модуля или обновление модуля до версии 1.3.0 (необходимо удалить старый модуль и установить новый).
+### Installation
+The instruction is posted on [the Yandex.Cassing Service page] (https://kassa.yandex.ru/files/manual_y.cms_opencart2.pdf).
+> Attention! Package `ycms_update.ocmod.zip` is intended to update the module from version 1.3.x. Package `YCMS.ocmod.zip` - The first installation of the module or update of the module to version 1.3.0 (you need to remove the old module and install a new one).
 
-###Лицензионный договор
-Любое использование Вами программы означает полное и безоговорочное принятие Вами условий лицензионного договора, размещенного по адресу https://money.yandex.ru/doc.xml?id=527052 (далее – «Лицензионный договор»). Если Вы не принимаете условия Лицензионного договора в полном объёме, Вы не имеете права использовать программу в каких-либо целях.
 
-###Нашли ошибку или у вас есть предложение по улучшению модуля?
-Пишите нам cms@yamoney.ru
-При обращении необходимо:
-* Указать наименование CMS и компонента магазина, а также их версии
-* Указать версию платежного модуля (доступна на странице настроек модуля)
-* Описать проблему или предложение
-* Приложить снимок экрана (для большей информативности)
+###License agreement
+Any use of your program means full and unconditional acceptance of the terms of the license agreement, placed at https://money.yandex.ru/doc.xml?id=527052 (hereinafter referred to as the "license agreement"). If you do not accept the terms of the license agreement in full, you do not have the right to use the program for any purposes.
+
+### found a mistake or do you have an offer to improve the module?
+Write to us cms@yamoney.ru.
+When contacting it is necessary:
+* Specify the name of the CMS and the store component, as well as their version
+* Specify the version of the payment module (available on the module settings page)
+* Describe a problem or offer
+* Attach a screen shot (for greater informative)
